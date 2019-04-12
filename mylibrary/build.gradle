@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
+/*apply plugin: 'maven'
 
-group = 'com.github.pmg71'
+group = 'com.github.pmg71'*/
 
 android {
     compileSdkVersion 28
