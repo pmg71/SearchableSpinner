@@ -3,11 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="300dp"
     xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
     android:orientation="vertical">
     <android.support.v7.widget.SearchView
         android:id="@+id/search_spinner"
         android:layout_width="match_parent"
-        android:layout_height="40dp">
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false">
 
     </android.support.v7.widget.SearchView>
 
@@ -15,8 +19,7 @@
         android:id="@+id/listview_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:visibility="visible"></ListView>
+       ></ListView>
 
 
 </LinearLayout>
